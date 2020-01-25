@@ -12,7 +12,7 @@ module.exports = {
             family: 4
         };
         
-        mongoose.connect('mongodb://localhost:27017/lincoln', dbOptions);
+        mongoose.connect('mongodb://localhost:27017/cluster0', dbOptions);
         mongoose.set('useFindAndModify', false);
         mongoose.Promise = global.Promise;
         
