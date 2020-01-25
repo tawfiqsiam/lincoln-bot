@@ -4,7 +4,7 @@ module.exports = {
     init: () => {
         const dbOptions = {
             useNewUrlParser: true,
-            autoIndex: false,
+            autoIndex: true,
             reconnectTries: Number.MAX_VALUE,
             reconnectInterval: 500,
             poolSize: 5,
