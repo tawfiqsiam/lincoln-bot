@@ -1,8 +1,8 @@
 require('dotenv-flow').config();
 
 module.exports = {
-    owner: process.env.OWNER,
-    prefix: process.env.PREFIX,
+    owner: 263639609416613888
+    prefix: .
     mongoURI: process.env.MONGO_URI,
     defaultSettings: {
         prefix: process.env.PREFIX,
