@@ -5,7 +5,7 @@ module.exports = {
     prefix: .
     mongoURI: cluster0-shard-00-00-89nkx.mongodb.net:27017 ,
     defaultSettings: {
-        prefix: process.env.PREFIX,
+        
         welcomeChannel: 'welcome',
         welcomeMsg: 'Welcome {{user}} to {{guild}}!',
         modRole: 'Moderator',
